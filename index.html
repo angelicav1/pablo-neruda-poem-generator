@@ -8,45 +8,50 @@
     <title>AI Pablo Neruda Poem Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Pablo Neruda Poem Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Pablo Neruda Poem Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter a topic or theme of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        poem here...
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a topic or theme of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          poem here...
+        </div>
+      </main>
 
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/angelicav1" target="_blank"
-        >Angelica Victoria</a
-      >
-      and is open-sourced on
-      <a
-        href="https://github.com/angelicav1/pablo-neruda-poem-generator"
-        target="_blank"
-        >GitHub
-      </a>
-      and is hosted on
-      <a href="https://pablonerudapoetrygenerator.netlify.app/" target="_blank">
-        Netlify
-      </a>
-    </footer>
-
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/angelicav1" target="_blank"
+          >Angelica Victoria</a
+        >
+        and is open-sourced on
+        <a
+          href="https://github.com/angelicav1/pablo-neruda-poem-generator"
+          target="_blank"
+          >GitHub
+        </a>
+        and is hosted on
+        <a
+          href="https://pablonerudapoetrygenerator.netlify.app/"
+          target="_blank"
+        >
+          Netlify
+        </a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
